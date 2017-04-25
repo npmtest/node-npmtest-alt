@@ -1,6 +1,6 @@
 # npmtest-alt
 
-#### test coverage for  [alt (v0.18.6)](https://github.com/goatslacker/alt#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-alt.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-alt) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-alt.svg)](https://travis-ci.org/npmtest/node-npmtest-alt)
+#### basic test coverage for  [alt (v0.18.6)](https://github.com/goatslacker/alt#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-alt.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-alt) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-alt.svg)](https://travis-ci.org/npmtest/node-npmtest-alt)
 
 #### A flux implementation
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-alt/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-alt/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-alt/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-alt/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-alt/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-alt/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-alt/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-alt/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-alt/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-alt/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-alt/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-alt/build/coverage.html/index.html)
 
@@ -144,7 +144,8 @@
         "transpile-cover": "babel src --out-dir lib --plugins external-helpers-2",
         "version": "npm run build"
     },
-    "version": "0.18.6"
+    "version": "0.18.6",
+    "bin": {}
 }
 ```
 
